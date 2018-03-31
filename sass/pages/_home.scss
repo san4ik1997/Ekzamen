@@ -1,0 +1,259 @@
+
+
+.two{
+  max-width: 100%;
+  width: 100%;
+  height: 547px;
+  background-color: white;
+}
+
+.what{
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.process{
+  list-style: none;
+  margin: 0;
+  margin-top: 62px;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  li{
+    padding: 0 20px;
+  }
+  h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Lato - Thin" sans-serif;
+  }
+}
+
+.About{
+  max-width: 100%;
+  width: 100%;
+  height: 544px;
+  background-color: #fbf7f4;
+  position: relative;
+  .dwellings{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .description{
+    width: 455px;
+    h2{
+      margin: 0;
+      padding-top: 58px;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 66px;
+    }
+    p{
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.rmore{
+  color: #fed52f;
+  font-family: Lato sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.candidats{
+  max-width: 100%;
+  width: 100%;
+  height: 734px;
+  background-color: white;
+  h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 70px;
+    padding-top: 61px;
+  }
+}
+
+.SEE{
+  text-align: center;
+  a{
+    color: #fed52f;
+    font-family: Lato sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.family_list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 38px;
+  li{
+    width: 368px;
+    height: 413px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    h3{
+      padding-left: 20px;
+    }
+    p{
+      padding: 17px 20px;
+    }
+  }
+}
+
+.block{
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  top:0;
+  background:rgba(254,213,47, 0.95);
+  opacity: 0;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s ease-in-out;
+  &:hover{
+    transition: .5s ease-in-out;
+  }
+}
+
+.image{
+  position:relative;
+  width:368px;
+  height:218px;
+  transition: .5s ease-in-out;
+  &:hover .block{
+    opacity: 1;
+    transition: .5s ease-in-out;
+  }
+}
+
+.explore{
+  color: #fed52f;
+  font-family: Lato sans-serif;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid transparent;
+  transition: .5s ease-in-out;
+  &:hover{
+    transition: .5s ease-in-out;
+    border: 3px solid #676158;
+    color: #F19321;
+  }
+}
+
+.Testimonials{
+  max-width: 100%;
+  width: 100%;
+  height: 542px;
+  background-color: #fbf7f4;
+  h2{
+    text-align: center;
+    color: #090500;
+    font-family: "Lato - Heavy";
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 60px;
+    margin: 0;
+  }
+}
+
+
+.temonlist{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  margin-bottom: 38px;
+  margin-top: 69px;
+  padding: 0;
+  justify-content: space-between;
+  .cit{
+    width: 410px;
+    height: 222px;
+    background-color: white;
+    color: #3a2405;
+    font-family: "Lato - Thin";
+    font-size: 16px;
+    padding: 20px;
+    float: right;
+    font-weight: bold;
+  }
+}
+
+.photo_men{
+  &::before{
+    content: url("../img/photomen.png");
+    padding-right: 30px;
+  }
+}
+
+.photo_girl{
+  &::before{
+    content: url("../img/photogirl.png");
+    padding-right: 30px;
+  }
+}
+
+.emon{
+  font-size: 18px;
+  font-family: "Lato - Thin";
+  font-weight: 100;
+  .emonial{
+    color: #fed52f;
+    font-weight: bold;
+    font-family: Lato sans-serif;
+  }
+}
+
+.build{
+  background-image: url("../img/build_home.png");
+  max-width: 100%;
+  height: 566px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  h2{
+    margin: 0;
+    padding: 0;
+    padding-top: 146px;
+    font-family: "Lato - Heavy";
+    font-size: 60px;
+    font-weight: bold;
+  }
+}
+
+.home_descript{
+  width: 429px;
+  p{
+    font-family: Lato sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 63px;
+  }
+}
